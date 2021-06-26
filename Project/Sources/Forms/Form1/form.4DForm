@@ -1,0 +1,237 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 34,
+					"left": 231,
+					"width": 108,
+					"height": 52,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button7": {
+					"type": "button",
+					"text": "Button",
+					"top": 84,
+					"left": 281,
+					"width": 108,
+					"height": 52,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button6": {
+					"type": "button",
+					"text": "Button",
+					"top": 84,
+					"left": 231,
+					"width": 108,
+					"height": 52,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button5": {
+					"type": "button",
+					"text": "Button",
+					"top": 127,
+					"left": 341,
+					"width": 108,
+					"height": 52,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Button",
+					"top": 24,
+					"left": 47,
+					"width": 109,
+					"height": 73,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button4": {
+					"type": "button",
+					"text": "Button",
+					"top": 74,
+					"left": 97,
+					"width": 109,
+					"height": 73,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Button",
+					"top": 95,
+					"left": 47,
+					"width": 109,
+					"height": 73,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Button",
+					"top": 24,
+					"left": 97,
+					"width": 109,
+					"height": 73,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Text": {
+					"type": "text",
+					"text": "",
+					"top": 265,
+					"left": 142,
+					"width": 247,
+					"height": 92,
+					"borderStyle": "solid",
+					"stroke": "#ff0000",
+					"textAngle": 270,
+					"textAlign": "center"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button8": {
+					"type": "button",
+					"text": "Button",
+					"top": 124,
+					"left": 143,
+					"width": 211,
+					"height": 90,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"text": "Button",
+					"top": 298,
+					"left": 260,
+					"width": 189,
+					"height": 68,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture Button": {
+					"type": "pictureButton",
+					"left": 499,
+					"top": 114,
+					"width": 104,
+					"height": 75,
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture0": {
+					"type": "picture",
+					"class": "",
+					"width": 108,
+					"height": 33,
+					"top": 124,
+					"left": 536,
+					"picture": "/PACKAGE/Project/Sources/Forms/Form1/Images/4dv18_1.png"
+				}
+			}
+		}
+	],
+	"geometryStamp": 404,
+	"editor": {
+		"groups": {
+			"Group": [
+				"Button4",
+				"Button3"
+			],
+			"Group1": [
+				"Button",
+				"Button7",
+				"Button6"
+			]
+		},
+		"activeView": "View 3",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {
+				"objects": [
+					"Group1",
+					"Button5",
+					"Button1",
+					"Group",
+					"Button2",
+					"Text",
+					"Button8",
+					"Button9",
+					"Picture Button",
+					"Picture0"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"macros": {
+		"Select object": {
+			"class": "SelectObject"
+		}
+	}
+}
